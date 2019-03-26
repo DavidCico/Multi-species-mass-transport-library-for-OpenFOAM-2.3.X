@@ -12,7 +12,14 @@ Duwig, Christophe, et al. Large Eddy Simulations of a piloted lean premix jet fl
 
 <li><p align="justify">"<em>diffusivityModels</em>"</p></li>
     <ul>
-    <li><p align="justify">binaryDiffusivityModel -> base class for all binary diffusivity models</p></li>
+        <li><p align="justify">binaryDiffusivityModel -> base class for all binary diffusivity models</p></li>
+        <li><p align="justify">constant -> binary diffusivity model with constant diffusion coefficients</p></li>
+        <li><p align="justify">Fuller -> binary diffusivity model based on Fuller-Schettler-Giddings correlation</p></li>
+        <li><p align="justify">ChapmanEnskog -> binary diffusivity model based of Chapman-Enskog correlation</p></li>
+        <li><p align="justify">Wilke -> binary diffusivity model based on Wilke-Lee correlation</p></li>
+        <li><p align="justify">Knudsen -> Knudsen diffusivity model</p></li>
+        <li><p align="justify">diffusivityModel -> class that collects the binary diffusion coefficients for a set of species</p></li>
+        <li><p align="justify">KnudsenDiffusivityModel -> class that collects the Knudsen diffusion coefficients for a set of species</p></li>
     </ul>
 <li><p align="justify">"<em>dynreactingLMFoam</em>" which accomodates of a moving mesh.</p></li>
 <li><p align="justify">"<em>reactingBoxturbFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
