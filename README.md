@@ -9,9 +9,14 @@ Duwig, Christophe, et al. Large Eddy Simulations of a piloted lean premix jet fl
 ## Files description
 
 <ul>
-    <li><p align="justify">"<em>diff_sc_reactingLMFoam</em>" where the different Schmidt numbers of the chemical species are defined, to capture the preferential diffusivity effect of certain elements.</p></li>
-    <li><p align="justify">"<em>dynreactingLMFoam</em>" which accomodates of a moving mesh.</p></li>
-    <li><p align="justify">"<em>reactingBoxturbFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
+
+<li><p align="justify">"<em>diffusivityModels</em>"</p></li>
+    <ul>
+    <li><p align="justify">binaryDiffusivityModel -> base class for all binary diffusivity models</p></li>
+    </ul>
+<li><p align="justify">"<em>dynreactingLMFoam</em>" which accomodates of a moving mesh.</p></li>
+<li><p align="justify">"<em>reactingBoxturbFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
+
 </ul>
 
 
