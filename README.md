@@ -18,17 +18,17 @@
     
 <li><p align="justify">"<em>multiSpeciesTransportModels</em>"</p></li>
     <ul>
-        <li><p align="justify">multiSpeciesTransportModels/multiSpeciesTransportModel -> base class for all multiSpecies transport models</p></li>
-        <li><p align="justify">multiSpeciesTransportModels/Fick -> diffusive mass fluxes are calculated using the common Fick law for multicomponent mixture (D_alpha is function of molar/mass fractions)</p></li>
-        <li><p align="justify">multiSpeciesTransportModels/FickDilutedMixture -> similar to Fick model, but D_alpha IS NOT function of molar/mass fractions </p></li>
-        <li><p align="justify">multiSpeciesTransportModels/SchmidtNumber -> diffusive mass fluxes are calculated using the Schmidt number</p></li>
-        <li><p align="justify">multiSpeciesTransportModels/Lewis -> diffusive mass fluxes are calculated using the Lewis number</p></li>
-        <li><p align="justify">multiSpeciesTransportModels/Bosanquet -> similar to Fick model, but D_alpha is corrected with Knudsen effects</p></li>
-        <li><p align="justify">multiSpeciesTransportModels/MaxwellStefan -> diffusive mass fluxes are calculated using the Maxwell-Stefan correlation (j_alpha depend by gradient of all species)</p></li>
+        <li><p align="justify">multiSpeciesTransportModel -> base class for all multiSpecies transport models</p></li>
+        <li><p align="justify">Fick -> diffusive mass fluxes are calculated using the common Fick law for multicomponent mixture (D_alpha is function of molar/mass fractions)</p></li>
+        <li><p align="justify">FickDilutedMixture -> similar to Fick model, but D_alpha IS NOT function of molar/mass fractions </p></li>
+        <li><p align="justify">SchmidtNumber -> diffusive mass fluxes are calculated using the Schmidt number</p></li>
+        <li><p align="justify">Lewis -> diffusive mass fluxes are calculated using the Lewis number</p></li>
+        <li><p align="justify">Bosanquet -> similar to Fick model, but D_alpha is corrected with Knudsen effects</p></li>
+        <li><p align="justify">MaxwellStefan -> diffusive mass fluxes are calculated using the Maxwell-Stefan correlation (j_alpha depend by gradient of all species)</p></li>
     </ul>
 
 
-<li><p align="justify">"<em>reactingBoxturbFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
+<li><p align="justify">"<em>modifiedReactingFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
 
 </ul>
 
