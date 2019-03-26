@@ -1,0 +1,14 @@
+
+molecularWeights/molecularWeights.C
+
+binaryDiffusivityModel/binaryDiffusivityModel.C
+constant/constant.C
+Fuller/Fuller.C
+ChapmanEnskog/ChapmanEnskog.C
+Wilke/Wilke.C
+Knudsen/Knudsen.C
+
+diffusivityModel/diffusivityModel.C
+KnudsenDiffusivityModel/KnudsenDiffusivityModel.C
+
+LIB = $(FOAM_USER_LIBBIN)/libdiffusivityModels
