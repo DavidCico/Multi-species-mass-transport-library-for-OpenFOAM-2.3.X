@@ -1,0 +1,61 @@
+EXE_INC = \
+    -I$(LIB_SRC)/turbulenceModels/compressible/turbulenceModel \
+    -I$(LIB_SRC)/thermophysicalModels/specie/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/reactionThermo/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/basic/lnInclude \
+    -I$(LIB_SRC)/thermophysicalModels/chemistryModel/lnInclude \
+    -I$(LIB_SRC)/ODE/lnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/sampling/meshToMeshInterpolation/meshToMesh \
+    -I$(LIB_SRC)/fvOptions/lnInclude \
+    -I$(FOAM_USER_LIBBIN)/../diffusivityModels/lnInclude \
+    -I$(FOAM_USER_LIBBIN)/../../../src/multiSpeciesMassTransportLibrary_2.1.x/multiSpeciesTransportModels/lnInclude \
+    -I$(FOAM_USER_LIBBIN)/../../../src/multiSpeciesMassTransportLibrary_2.1.x/diffusivityModels/lnInclude \
+    -I$(FOAM_USER_LIBBIN)/../../multiSpeciesTransportModels/lnInclude \
+    -I$(FOAM_RUN)/../lib/diffusivityModels/lnInclude \
+    -I$(FOAM_RUN)/../lib/multiSpeciesTransportModels/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude \
+    -I$(LIB_SRC)/combustionModels/lnInclude
+
+
+EXE_LIBS = \
+	-lcombustionModels \
+	-lcompressibleTurbulenceModel \
+	-lcompressibleLESModels \
+	-lcompressibleRASModels \
+	-lreactionThermophysicalModels \
+	-lfluidThermophysicalModels \
+	-ltriSurface \
+	-lsolidSpecie \
+	-lsurfMesh \
+	-lchemistryModel \
+	-lODE \
+	-lfiniteVolume \
+	-lmeshTools \
+	-lspecie \
+	-lOpenFOAM \
+	-ldl \
+	-lsolidThermo \
+	-lradiationModels  \
+	-lSLGThermo \
+	-lsolidMixtureProperties \
+	-lliquidMixtureProperties \
+	-lsolidProperties \
+	-lliquidProperties \
+	-lfileFormats \
+	-lthermophysicalFunctions \
+	-lLESdeltas \
+	-lLESfilters \
+	-lfvOptions \
+	-lsampling \
+	-llagrangian \
+	-lconversion \
+	-L$(FOAM_USER_LIBBIN) \
+	-lmultiSpeciesTransportModels \
+	-ldiffusivityModels \
+
+
+
+
+
+
