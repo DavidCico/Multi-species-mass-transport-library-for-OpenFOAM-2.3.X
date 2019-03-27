@@ -36,6 +36,8 @@
 
 <li><p align="justify">"<em>modifiedReactingFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
 
+<li><p align="justify">"<em>multiSpeciesTransportModels.pdf"</em> in which the different models are explained.
+
 </ul>
 
 
