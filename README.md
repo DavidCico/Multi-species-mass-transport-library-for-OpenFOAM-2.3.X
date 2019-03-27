@@ -1,5 +1,9 @@
 # Multi-species-mass-transport-library-for-OpenFOAM-2.3.X
 
+
+Novaresio V., García-Camprubí M., Izquierdo S., Asinari P., Fueyo N., An Open-Source Library for the Numerical Model-
+ing of Mass-Transfer in Solid-Oxide Fuel Cells. <em>Computer Physics Communications</em>, Elsevier B.V., pp. 22, 2011, Vol. 183, pag. 125-146, ISSN: 0010-4655, <a href="https://doi.org/10.1016/j.cpc.2011.08.003">DOI: 10.1016/j.cpc.2011.08.003</a>.
+
 ## Files description
 
 <ul>
