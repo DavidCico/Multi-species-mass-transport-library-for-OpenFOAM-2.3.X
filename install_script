@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# This scrip copies the library in $FOAM_USER/lib, the application in
+# $FOAM_USER/applications and the tutorial in $FOAM_USER/run
+
+# If folders already exist a warning message will be showed
+mkdir $FOAM_RUN/
+mkdir $FOAM_RUN/../lib
+mkdir $FOAM_RUN/../applications
+
+
+cp -r diffusivityModels $FOAM_RUN/../lib
+cp -r multiSpeciesTransportModels $FOAM_RUN/../lib
+cp -r modifiedReactingFoam $FOAM_RUN/../applications
+cp -r testCase/modifiedReactingFoam $FOAM_RUN
+
+cd $FOAM_RUN/../lib
+wmake libso diffusivityModels
+wmake libso multiSpeciesTransportModels
+
+cd $FOAM_RUN/../applications
+wmake modifiedReactingFoam
