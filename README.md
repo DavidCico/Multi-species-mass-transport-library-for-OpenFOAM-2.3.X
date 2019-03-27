@@ -45,16 +45,9 @@
 
 ## Instructions on program
 
-To compile any solver, go inside the folder of the desired one and execute the command:
+<p align="justify">To compile the two libraries and the solver, you can just run the installation script ("<em>install_script</em>") after ensuring the permissions to execute the file:</p>
 
-    wmake
+    chmod u+x install_script
+    ./install_script
 
-This will create the application <em>solver</em> in your $FOAM_USER_BIN folder.
-
-All the solvers require adding some additional files:
-
-1. Add thermodynamic pressure level in constant/chemistryProperties
-            
-        pReff pReff [1 -1 -2 0 0 0 0] 1.01325E+05;
-
-2. A new field-file: pd (dynamic pressure), which is actually the solved pressure variable (p is more or less a dummy field)
+This will create the libraries <em>diffusivityModels</em> and <em>multiSpeciesTransportModels</em> in your $FOAM_USER_LIBBIN folder, and create the application <em>modifiedReactingFoam</em> in your $FOAM_USER_BIN folder.
