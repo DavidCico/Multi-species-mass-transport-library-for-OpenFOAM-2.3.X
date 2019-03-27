@@ -22,6 +22,8 @@
         <li><p align="justify">KnudsenDiffusivityModel -> class that collects the Knudsen diffusion coefficients for a set of species</p></li>
     </ul>
     
+   <br>
+   
 <li><p align="justify">"<em>multiSpeciesTransportModels</em>"</p></li>
     <ul>
         <li><p align="justify">multiSpeciesTransportModel -> base class for all multiSpecies transport models</p></li>
@@ -33,6 +35,7 @@
         <li><p align="justify">MaxwellStefan -> diffusive mass fluxes are calculated using the Maxwell-Stefan correlation (j_alpha depend by gradient of all species)</p></li>
     </ul>
 
+<br>
 
 <li><p align="justify">"<em>modifiedReactingFoam</em>" in which turbulence is initially generated in the whole domain (usually a box) using Fourier series.</p></li>
 
