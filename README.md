@@ -1,8 +1,8 @@
 # Multi-species-mass-transport-library-for-OpenFOAM-2.3.X
 
-In this repository, the multi-species mass transport library of Novaresio et al. (see below) is implemented for OpenFOAM-2.3.X. The original version of the library was developed for OpenFOAM-1.6 and later on updated for version 2.1.0.
+<p align="justify">In this repository, the multi-species mass transport library of Novaresio et al. (see below) is implemented for OpenFOAM-2.3.X. The original version of the library was developed for OpenFOAM-1.6 and later on updated for version 2.1.0.</p>
 
-Novaresio V., García-Camprubí M., Izquierdo S., Asinari P., Fueyo N., An Open-Source Library for the Numerical Modeling of Mass-Transfer in Solid-Oxide Fuel Cells. <em>Computer Physics Communications</em>, Elsevier B.V., pp. 22, 2011, Vol. 183, pag. 125-146, ISSN: 0010-4655, <a href="https://doi.org/10.1016/j.cpc.2011.08.003">DOI: 10.1016/j.cpc.2011.08.003</a>.
+<p align="justify">Novaresio V., García-Camprubí M., Izquierdo S., Asinari P., Fueyo N., An Open-Source Library for the Numerical Modeling of Mass-Transfer in Solid-Oxide Fuel Cells. <em>Computer Physics Communications</em>, Elsevier B.V., pp. 22, 2011, Vol. 183, pag. 125-146, ISSN: 0010-4655, <a href="https://doi.org/10.1016/j.cpc.2011.08.003">DOI: 10.1016/j.cpc.2011.08.003</a>.</p>
 
 ## Files description
 
